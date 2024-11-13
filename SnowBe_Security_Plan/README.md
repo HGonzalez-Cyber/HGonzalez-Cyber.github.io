@@ -1,6 +1,6 @@
 # SnowBe Online Security Policies, Standards, Procedures, and Security Plan
 
-This repository houses a comprehensive suite of security policies, procedures, and a detailed Security Plan designed to secure SnowBe Online’s digital infrastructure, ensure regulatory compliance, and protect sensitive data. Developed in alignment with industry standards like NIST SP 800-53 and PCI DSS, this collection defines structured approaches to safeguarding critical information assets across various operational areas.
+This repository houses a comprehensive suite of security policies, standards, procedures, and a detailed Security Plan designed to secure SnowBe Online’s digital infrastructure, ensure regulatory compliance, and protect sensitive data. Developed in alignment with industry standards like NIST SP 800-53 and PCI DSS, this collection defines structured approaches to safeguarding critical information assets across various operational areas.
 
 ## Project Highlights
 - **Security Plan**: This strategic plan integrates the developed policies, standards, and procedures to outline SnowBe Online’s overall security approach. It addresses risk management, access control, compliance mandates, and incident response, providing a roadmap for implementing security best practices across the organization.
