@@ -199,16 +199,27 @@
             <h2>Contact Information</h2>
             <p>
                 You can email me at: 
-                <a href="mailto:hrgonzalez2024@gmail.com">your.email@example.com</a><br>
+                <a href="mailto:hrgonzalez2024@gmail.com">hrgonzalez2024@gmail.com</a><br>
                 Or connect with me on 
                 <a href="https://www.linkedin.com/in/humberto-gonzalez-a335952a8" target="_blank">LinkedIn</a>
             </p>
 
-            <form action="mailto:hrgonzalez2024@gmail.com" method="post" enctype="text/plain">
+            <form action="https://formsubmit.co/hrgonzalez2024@gmail.com" method="POST">
+                <!-- Disable CAPTCHA -->
+                <input type="hidden" name='captcha" value="false">
+
+                <!-- Optional: redirect after submission -->
+                <input type="hidden" name="_next" value="https://HGonzalez-Cyber.github.io/thank-you.html">
+                
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required><br
+
                 <label for="message">Message:</label><br>
                 <textarea id="message" name="message" rows="5" required></textarea><br>
+                
                 <input type="submit" value="Send Message">
             </form>
         </section>
