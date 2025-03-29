@@ -14,7 +14,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            /* Background image settings */
             background-image: url('images/Hd-wallpaper-background.jpg');
             background-size: cover;
             background-attachment: fixed;
@@ -39,6 +38,9 @@
             max-width: 800px;
             width: 100%;
             padding: 2rem;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 12px;
+            margin-top: 2rem;
         }
         section {
             margin: 2rem 0;
@@ -46,6 +48,10 @@
         h2 {
             font-size: 1.8rem;
             color: #4a90e2;
+        }
+        h3 {
+            font-size: 1.3rem;
+            margin-top: 1rem;
         }
         ul {
             list-style-type: none;
@@ -77,6 +83,20 @@
             color: #fff;
             text-decoration: underline;
         }
+        form input, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        form input[type="submit"] {
+            background-color: #4a90e2;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            border: none;
+        }
     </style>
 </head>
 <body>
@@ -85,7 +105,7 @@
         <p>Welcome to my IT and Cybersecurity Portfolio</p>
     </header>
     <main>
-        
+
         <section>
             <h2>About Me</h2>
             <p>
@@ -93,108 +113,110 @@
             </p>
         </section>
 
+        <section>
+            <h2>Resume</h2>
+            <p><a href="documents/Humberto_Gonzalez_Resume.pdf" download>Download My Resume (PDF)</a></p>
+
+            <h3>Past Work Experience</h3>
+            <ul>
+                <li>IT Support Intern – Assisted in setting up networks, troubleshooting hardware/software issues.</li>
+                <li>Cybersecurity Student Projects – Created security plans, implemented policies, and configured secure systems.</li>
+            </ul>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>Network Configuration, Linux/Windows Server, Docker, PowerShell</li>
+                <li>Security Policy Writing, Risk Assessment, Access Control</li>
+            </ul>
+
+            <h3>Certifications</h3>
+            <ul>
+                <li>CompTIA Security+ (in progress)</li>
+                <li>Intro to Cybersecurity – Cisco Networking Academy</li>
+            </ul>
+
+            <h3>Memberships</h3>
+            <ul>
+                <li>National Cybersecurity Student Association</li>
+            </ul>
+        </section>
+
+        <section>
             <h2>Projects</h2>
             <ul>
                 <li>
                     <h3>Network System Implementation Project</h3>
                     <ul>
-                        <li>
-                            <a href="Network%20System%20Implementation/README.MD">View Project Details (README)</a>
-                        </li>
-                        <li>
-                            <a href="Network%20System%20Implementation/Project_Portfolio_I/HGonzalez_Project_Portfolio_I.pdf">Project Documentation (PDF)</a>
-                            <p>Detailed project documentation outlining the Network System Implementation.</p>                            
-                        </li>
-                        <li>
-                            <a href="Network%20System%20Implementation/Project_Portfolio_I/MarconiLawFirm.pdf">Marconi Law Firm Network Design (PDF)</a>
-                            <p>Network design documentation for the Marconi Law Firm project.</p>
-                        </li>
+                        <li><a href="Network%20System%20Implementation/README.MD">View Project Details (README)</a></li>
+                        <li><a href="Network%20System%20Implementation/Project_Portfolio_I/HGonzalez_Project_Portfolio_I.pdf">Project Documentation (PDF)</a></li>
+                        <li><a href="Network%20System%20Implementation/Project_Portfolio_I/MarconiLawFirm.pdf">Marconi Law Firm Network Design (PDF)</a></li>
                     </ul>
                 </li>
-
                 <li>
                     <h3>WordPress Website Project for Marconi Law Firm</h3>
                     <ul>
-                        <li>
-                            <a href="Proof%20of%20Concept%20WordPress%20Site/README.md">View Project Details (README)</a>
-                        </li>
-                        <li>
-                            <a href="Proof%20of%20Concept%20WordPress%20Site/Gonzalez_Humberto_MarconiLaw_Wordpress.pdf">Project Documentation (PDF)</a>
-                            <p>Detailed project documentation outlining the Implementation of the Marconi Law Firm WordPess Site.</p>
-                        </li>
+                        <li><a href="Proof%20of%20Concept%20WordPress%20Site/README.md">View Project Details (README)</a></li>
+                        <li><a href="Proof%20of%20Concept%20WordPress%20Site/Gonzalez_Humberto_MarconiLaw_Wordpress.pdf">Project Documentation (PDF)</a></li>
                     </ul>
                 </li>
-
                 <li>
                     <h3>Installation_Setup_Configuration_of_Server_Software Project</h3>
                     <ul>
-                        <li>
-                            <a href="Installation_Setup_configuration_of_Server_Software/README.md">View Project Details (README)</a>
-                        </li>
-                        <li>
-                            <a href="Installation_Setup_configuration_of_Server_Software/Gonzalez_Humberto_Docker_&_Mayan.pdf">Docker and Mayan Documentation (PDF)</a>
-                            <p>Docker and Mayan EDMS Installation on Ubuntu 22.04.</p>
-                        </li>
-                        <li>
-                            <a href="Installation_Setup_configuration_of_Server_Software/Gonzalez_Humberto_NLB.pdf">NLB Documentation (PDF)</a>
-                            <p>Network Load Balancing Installation on Windows Server 2019.</p>
-                        </li>
-                        <li>
-                            <a href="Installation_Setup_configuration_of_Server_Software/Gonzalez_Humberto_Powershell_Installation.pdf">Microsoft Powershell Documentation (PDF)</a>
-                            <p>Microsoft PowerShell for Server Configuration.</p>
-                        </li>
-                        <li>
-                            <a href="Installation_Setup_configuration_of_Server_Software/Gonzalez_Humberto_Samba.pdf">Samba File Server Documentation (PDF)</a>
-                            <p>Samba File Server Installation on Ubuntu.</p>                            
-                        </li>
+                        <li><a href="Installation_Setup_configuration_of_Server_Software/README.md">View Project Details (README)</a></li>
+                        <li><a href="Installation_Setup_configuration_of_Server_Software/Gonzalez_Humberto_Docker_&_Mayan.pdf">Docker and Mayan Documentation (PDF)</a></li>
+                        <li><a href="Installation_Setup_configuration_of_Server_Software/Gonzalez_Humberto_NLB.pdf">NLB Documentation (PDF)</a></li>
+                        <li><a href="Installation_Setup_configuration_of_Server_Software/Gonzalez_Humberto_Powershell_Installation.pdf">Microsoft Powershell Documentation (PDF)</a></li>
+                        <li><a href="Installation_Setup_configuration_of_Server_Software/Gonzalez_Humberto_Samba.pdf">Samba File Server Documentation (PDF)</a></li>
                     </ul>
                 </li>
-
                 <li>
                     <h3>SnowBe Security Plan Project</h3>
                     <ul>
-                        <li>
-                            <a href="SnowBe_Security_Plan/README.md">View Project Details (README)</a>
-                        </li>
-                        <li>
-                            <a href="SnowBe_Security_Plan/SnowBe_Case_Study/SnowBe_Case_Study.pdf">SnowBe Current Security Status Document (PDF)</a>
-                            <p>SnowBe Project Case Study.</p>
-                        </li>
-                        <li>
-                            <a href="SnowBe_Security_Plan/SnowBe_Case_Study/Gonzalez_Humberto_Access_Control_justification (2).pdf">Recommended Access Control List (ACL) (PDF)</a>
-                            <p>Recommended ACL based on SnowBe case study and justification for each.</p>
-                        </li>
-                        <li>
-                            <a href="SnowBe_Security_Plan/SnowBe_Case_Study/SnowBe_Security_Plan.pdf">SnowBe Security Plan (PDF)</a>
-                            <p>Detailed SnowBe security plan outlining the new security measures based on their current position.</p>
-                        </li>
-                        <li>
+                        <li><a href="SnowBe_Security_Plan/README.md">View Project Details (README)</a></li>
+                        <li><a href="SnowBe_Security_Plan/SnowBe_Case_Study/SnowBe_Case_Study.pdf">SnowBe Current Security Status Document (PDF)</a></li>
+                        <li><a href="SnowBe_Security_Plan/SnowBe_Case_Study/Gonzalez_Humberto_Access_Control_justification (2).pdf">Recommended Access Control List (ACL) (PDF)</a></li>
+                        <li><a href="SnowBe_Security_Plan/SnowBe_Case_Study/SnowBe_Security_Plan.pdf">SnowBe Security Plan (PDF)</a></li>
+                    </ul>
+                </li>
+                <li>
                     <h3>Policies, Standards, and Procedures</h3>
                     <ul>
-                        <li>
-                            <a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_Access_Enforcement_policy.pdf">Access Enforcement Policy (PDF)</a>
-                        <li>
-                            <a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_Least_Privilege_policy.pdf">Least Privilege Policy (PDF)</a>                            
-                        <li>
-                            <a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_NewAccountCreation_policy.pdf">New Account Creation Policy (PDF)</a>
-                        <li>
-                            <a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_Password_Standard.pdf">Password Standard (PDF)</a>
-                        <li>
-                            <a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_Password_Procedure.pdf">Password Procedure (PDF)</a>
-                        <li>
-                            <a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_PCI_Policy.pdf">PCI Policy (PDF)</a>
-                        <li>
-                            <a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_Remote_Work_Security_policy.pdf">Remote Work Policy (PDF)</a>
-                        <li>
-                            <a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_Endpoint_Security_policy.pdf">Endpoint Policy (PDF)</a>
-                        <li>
-                            <a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_ChangeControlManagement_policy.pdf">Change Control Management Policy (PDF)</a>                            
+                        <li><a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_Access_Enforcement_policy.pdf">Access Enforcement Policy (PDF)</a></li>
+                        <li><a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_Least_Privilege_policy.pdf">Least Privilege Policy (PDF)</a></li>
+                        <li><a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_NewAccountCreation_policy.pdf">New Account Creation Policy (PDF)</a></li>
+                        <li><a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_Password_Standard.pdf">Password Standard (PDF)</a></li>
+                        <li><a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_Password_Procedure.pdf">Password Procedure (PDF)</a></li>
+                        <li><a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_PCI_Policy.pdf">PCI Policy (PDF)</a></li>
+                        <li><a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_Remote_Work_Security_policy.pdf">Remote Work Policy (PDF)</a></li>
+                        <li><a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_Endpoint_Security_policy.pdf">Endpoint Policy (PDF)</a></li>
+                        <li><a href="SnowBe_Security_Plan/Policies_Standards_Procedures/Gonzalez_Humberto_ChangeControlManagement_policy.pdf">Change Control Management Policy (PDF)</a></li>
+                    </ul>
                 </li>
             </ul>
         </section>
+
+        <section>
+            <h2>Contact Information</h2>
+            <p>
+                You can email me at: 
+                <a href="mailto:your.email@example.com">your.email@example.com</a><br>
+                Or connect with me on 
+                <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
+            </p>
+
+            <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
     </main>
     <footer>
-        <p>Connect with me on <a href="https://www.linkedin.com/in/yourlinkedin">LinkedIn</a></p>
+        <p>© 2025 Humberto Gonzalez. Connect on 
+            <a href="https://www.linkedin.com/in/yourlinkedin">LinkedIn</a>
+        </p>
     </footer>
 </body>
 </html>
