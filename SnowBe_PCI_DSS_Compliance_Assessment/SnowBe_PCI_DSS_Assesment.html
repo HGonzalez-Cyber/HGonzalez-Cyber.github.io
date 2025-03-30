@@ -1,35 +1,90 @@
-# PCI DSS Compliance Assessment – SnowBe Online
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PCI DSS Compliance Assessment – SnowBe Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      padding: 2rem;
+      color: #333;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #1e90ff;
+    }
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .back-link {
+      margin-bottom: 1.5rem;
+      display: inline-block;
+    }
+    strong {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
 
-## Project Overview
+<a class="back-link" href="https://HGonzalez-Cyber.github.io/#projects">🔙 Back to Projects</a>
 
-This project involved a comprehensive PCI DSS Level 2 compliance assessment for **SnowBe Online**, a growing e-commerce lifestyle brand that processes over 1.2 million credit/debit card transactions annually. The assessment was conducted in response to the company’s need to align with PCI DSS standards following its rapid growth and IPO launch.
+<h1>💳 PCI DSS Compliance Assessment – SnowBe Online</h1>
 
-## Objectives
+<h2>📋 Project Overview</h2>
+<p>
+  This project involved a comprehensive PCI DSS Level 2 compliance assessment for <strong>SnowBe Online</strong>, a growing e-commerce lifestyle brand that processes over 1.2 million credit/debit card transactions annually. The assessment was conducted in response to the company’s need to align with PCI DSS standards following its rapid growth and IPO launch.
+</p>
 
-- Identify the correct PCI merchant level for SnowBe Online
-- Determine the applicable SAQ(s) and compliance requirements
-- Evaluate controls in place for secure cardholder data processing
-- Complete and support the Self-Assessment Questionnaire D (SAQ D)
-- Recommend security controls and documentation strategies
+<h2>🎯 Objectives</h2>
+<ul>
+  <li>Identify the correct PCI merchant level for SnowBe Online</li>
+  <li>Determine the applicable SAQ(s) and compliance requirements</li>
+  <li>Evaluate controls in place for secure cardholder data processing</li>
+  <li>Complete and support the Self-Assessment Questionnaire D (SAQ D)</li>
+  <li>Recommend security controls and documentation strategies</li>
+</ul>
 
-## Key Findings
+<h2>📌 Key Findings</h2>
+<ul>
+  <li><strong>Merchant Level</strong>: SnowBe qualifies as a <strong>Level 2 Merchant</strong> (1M–6M transactions annually).</li>
+  <li><strong>Applicable SAQ</strong>: <strong>SAQ D for Merchants</strong>, due to storage and transmission of cardholder data via AWS and WordPress.</li>
+  <li><strong>Third-Party Services</strong>: AWS for web hosting and banks for transaction settlement were identified as key third parties.</li>
+  <li><strong>Scope of Assessment</strong>: Covered AWS-hosted website, brick-and-mortar store terminals, internal workstations, and networked systems.</li>
+</ul>
 
-- **Merchant Level**: SnowBe qualifies as a **Level 2 Merchant** (1M–6M transactions annually).
-- **Applicable SAQ**: **SAQ D for Merchants**, due to storage and transmission of cardholder data via AWS and WordPress.
-- **Third-Party Services**: AWS for web hosting and banks for transaction settlement were identified as key third parties.
-- **Scope of Assessment**: Covered AWS-hosted website, brick-and-mortar store terminals, internal workstations, and networked systems.
+<h2>✅ Requirements Met Under SAQ D</h2>
+<ul>
+  <li>Use of strong encryption and firewalls</li>
+  <li>Antivirus deployment and firmware patching</li>
+  <li>Secure coding and access control policies</li>
+  <li>Employee security awareness training</li>
+  <li>Regular ASV scans and penetration testing</li>
+  <li>Data retention policies and incident response plans</li>
+</ul>
 
-## Requirements Met Under SAQ D
+<h2>🛠️ Technologies & Frameworks</h2>
+<ul>
+  <li><strong>PCI DSS v3.2.1</strong></li>
+  <li><strong>Self-Assessment Questionnaire D (SAQ D)</strong></li>
+  <li><strong>AWS</strong>, WordPress, Encrypted Storage</li>
+</ul>
 
-- Use of strong encryption and firewalls
-- Antivirus deployment and firmware patching
-- Secure coding and access control policies
-- Employee security awareness training
-- Regular ASV scans and penetration testing
-- Data retention policies and incident response plans
+<br>
+<a class="back-link" href="https://HGonzalez-Cyber.github.io/#projects">🔙 Back to Projects</a>
 
-## Technologies & Frameworks
-
-- **PCI DSS v3-2-1**
-- **Self-Assessment Questionnaire D (SAQ D)**
-- **AWS**, WordPress, Encrypted Storage
+</body>
+</html>
