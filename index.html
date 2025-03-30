@@ -164,6 +164,44 @@ form input[type="submit"]:hover {
   }
   nav ul {
     flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+    margin: 0 1rem 1rem;
+    list-style: none;
+    background-color: rgba(74, 144, 226, 0.9);
+    border-radius: 8px;
+  }
+  nav ul li {
+    border-top: 1px solid rgba(255,255,255,0.2);
+  }
+  nav ul li:first-child {
+    border-top: none;
+  }
+  nav ul li a {
+    display: block;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+  }
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  form input, form textarea {
+    font-size: 1rem;
+  }
+}
+  header p {
+    font-size: 1rem;
+  }
+  main {
+    padding: 1rem;
+    border-radius: 0;
+  }
+  nav ul {
+    flex-direction: column;
     align-items: center;
     padding: 0;
     margin: 0;
@@ -332,5 +370,3 @@ form input[type="submit"]:hover {
     </footer>
 </body>
 </html>
-
-
