@@ -1,3 +1,4 @@
+[🔙 Back to Home](https://HGonzalez-Cyber.github.io)
 # SnowBe Online – Security Plan and Risk Management Framework
 
 ## Overview
@@ -52,3 +53,4 @@ Based on the SnowBe case study, the following recommendations were made:
 - A complete security policy framework covering governance, technical, physical, and operational domains.
 - Mapped policies to NIST 800-53 controls to support compliance and organizational risk reduction.
 - A roadmap for maturity and security gap closure based on CMMC and RMF principles.
+[🔙 Back to Home](https://HGonzalez-Cyber.github.io)
