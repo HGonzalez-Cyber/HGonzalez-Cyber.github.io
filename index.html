@@ -67,11 +67,12 @@
     max-width: 900px;
     width: 90%;
     padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.97);
     border-radius: 16px;
     margin-top: 2rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(6px);
+    color: #1a1a1a;
 }
         section {
             margin: 2rem 0;
@@ -124,21 +125,29 @@
             text-decoration: underline;
         }
         form input, form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-            font-size: 1rem;
-        }
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    color: #1a1a1a;
+    background-color: #fefefe;
+}
         form input[type="submit"] {
-            background-color: #4a90e2;
-            color: white;
-            cursor: pointer;
-            font-weight: bold;
-            border: none;
-            transition: background-color 0.3s;
-        }
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+form input[type="submit"]:hover {
+    background-color: #357ab8;
+}
         form input[type="submit"]:hover {
             background-color: #2c3e50;
         }
@@ -267,4 +276,5 @@
     </footer>
 </body>
 </html>
+
 
