@@ -17,6 +17,20 @@
             align-items: center;
             scroll-behavior: smooth;
         }
+        .skills-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 1.5rem;
+        }
+        .skills-grid h4 {
+          margin-bottom: 0.5rem;
+          color: #1e90ff;
+        }
+        .skills-grid ul {
+          list-style: disc;
+          padding-left: 1.2rem;
+          margin: 0;
+        }
         header {
             text-align: center;
             padding: 2rem 0;
@@ -184,54 +198,59 @@
               </li>
             </ul>
             <h3>Skills</h3>
-
-            <h4>🖥️ Technical & System Skills</h4>
-            <ul>
-              <li>Network Design (LAN, VLAN, IP Addressing)</li>
-              <li>Windows Server 2019 Configuration</li>
-              <li>Ubuntu Server Administration</li>
-              <li>Network Load Balancing (NLB)</li>
-              <li>RAID Configuration (RAID 5)</li>
-              <li>Docker & Docker Compose</li>
-              <li>Server Role Management via PowerShell</li>
-              <li>Samba File Server Setup (Linux-Windows Interoperability)</li>
-              <li>Virtual Machine Configuration</li>
-            </ul>
-
-            <h4>🔒 Cybersecurity Skills</h4>
-            <ul>
-              <li>Cybersecurity Maturity Assessments (CMMC, NIST 800-53)</li>
-              <li>Risk Identification & Mitigation Strategies</li>
-              <li>Web Application Firewall (WAF) Deployment</li>
-              <li>Two-Factor Authentication Implementation</li>
-              <li>Secure Access Controls & Permission Management</li>
-              <li>Least Privilege Principles</li>
-              <li>Encryption & Configuration Hardening</li>
-              <li>Secure SDLC Practices</li>
-            </ul>
-
-            <h4>🌐 Web & Application Skills</h4>
-            <ul>
-              <li>WordPress Site Deployment on LAMP Stack</li>
-              <li>NGINX Reverse Proxy Configuration</li>
-              <li>Plugin-Based Security Management (Shield Security, Loginizer)</li>
-              <li>Custom Network Topology for Web Apps</li>
-            </ul>
-
-            <h4>🔧 Automation & Scripting</h4>
-            <ul>
-              <li>PowerShell Scripting for Server Configuration</li>
-              <li>Automated Network Setup</li>
-              <li>Role & Feature Deployment Scripts</li>
-            </ul>
-
-            <h4>📊 Project Management & Documentation</h4>
-            <ul>
-              <li>IT Policy and SOP Documentation</li>
-              <li>Audit-Ready Configuration Guides</li>
-              <li>Security Plan Development</li>
-              <li>Strategic Planning for Cybersecurity Framework Adoption</li>
-            </ul>
+            <div class="skills-grid">
+              <div>
+                <h4>🖥️ Technical & System Skills</h4>
+                <ul>
+                  <li>Network Design (LAN, VLAN, IP Addressing)</li>
+                  <li>Windows Server 2019 Configuration</li>
+                  <li>Ubuntu Server Administration</li>
+                  <li>Network Load Balancing (NLB)</li>
+                  <li>RAID Configuration</li>
+                  <li>Docker & Compose</li>
+                  <li>PowerShell Server Setup</li>
+                  <li>Samba File Server Integration</li>
+                </ul>
+            </div>
+            <div>
+                <h4>🔒 Cybersecurity Skills</h4>
+                <ul>
+                  <li>CMMC, NIST 800-53 Alignment</li>
+                  <li>Risk Analysis & Mitigation</li>
+                  <li>WAF & 2FA Deployment</li>
+                  <li>Encryption & Hardening</li>
+                  <li>Access Control & Privilege Management</li>
+                  <li>Incident Response Planning</li>
+                  <li>Secure SDLC Practices</li>
+                </ul>
+              </div>
+              <div>
+                <h4>🌐 Web & Application Skills</h4>
+                <ul>
+                  <li>WordPress on LAMP Stack</li>
+                  <li>NGINX Reverse Proxy Setup</li>
+                  <li>Plugin-Based Security (Shield, Loginizer)</li>
+                  <li>Dockerized App Hosting</li>
+                </ul>
+              </div>
+              <div>
+                <h4>🔧 Automation & Scripting</h4>
+                <ul>
+                  <li>PowerShell Configuration Scripts</li>
+                  <li>Automated Role Deployment</li>
+                  <li>Network Setup Automation</li>
+                </ul>
+              </div>
+              <div>
+                <h4>📊 Project Management & Documentation</h4>
+                <ul>
+                  <li>Security Plan Development</li>
+                  <li>Policy & SOP Documentation</li>
+                  <li>Audit-Ready Configuration Guides</li>
+                  <li>Cybersecurity Strategy Roadmapping</li>
+                </ul>
+              </div>
+            </div>
             <h3>Certifications</h3>
             <ul>
                 <li>CompTIA Security+ (in progress)</li>
