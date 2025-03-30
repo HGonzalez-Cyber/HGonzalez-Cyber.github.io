@@ -1,18 +1,54 @@
-# SnowBe Online Security Policies, Standards, Procedures, and Security Plan
+# SnowBe Online – Security Plan and Risk Management Framework
 
-This repository houses a comprehensive suite of security policies, standards, procedures, and a detailed Security Plan designed to secure SnowBe Online’s digital infrastructure, ensure regulatory compliance, and protect sensitive data. Developed in alignment with industry standards like NIST SP 800-53 and PCI DSS, this collection defines structured approaches to safeguarding critical information assets across various operational areas.
+## Overview
 
-## Project Highlights
-- **Security Plan**: This strategic plan integrates the developed policies, standards, and procedures to outline SnowBe Online’s overall security approach. It addresses risk management, access control, compliance mandates, and incident response, providing a roadmap for implementing security best practices across the organization.
-- **Access Control Policies**: A robust access control framework, including policies on Access Enforcement, Least Privilege, and Account Creation, ensures that resources are accessible only to authorized personnel, reinforcing data integrity and confidentiality.
-- **Endpoint Security**: Defines standards for endpoint devices, enforcing antivirus requirements, routine security patching, and the least privilege principle to protect SnowBe Online’s network from unauthorized access.
-- **Password and Authentication Management**: Sets high standards for password complexity, multi-factor authentication (MFA), and secure storage practices, minimizing vulnerabilities and bolstering authentication security throughout the organization.
-- **Payment Card Industry (PCI) Compliance**: Outlines secure procedures for handling payment card data, encompassing storage, processing, and disposal requirements to maintain PCI DSS compliance and protect customer financial information.
-- **Remote Work Security**: Supports the security of remote work by enforcing encryption, malware protection, and secure access protocols, ensuring that remote employees can access company resources safely.
-- **Change Control Management**: Establishes a process for authorized and documented system changes, mitigating potential disruptions and security risks while ensuring accountability and compliance.
+This project focuses on developing a comprehensive **Information Security Plan** for SnowBe Online, a fast-growing lifestyle brand that recently went public. The plan integrates technical safeguards, policy controls, and compliance strategies aligned with the NIST 800-53 Revision 5 framework and risk management best practices.
 
-Each document clearly defines roles, responsibilities, and enforcement mechanisms, with exception protocols to ensure consistent and effective application. This project demonstrates expertise in cybersecurity policy creation, risk management, and regulatory adherence, showcasing practical application of cybersecurity principles essential for protecting a dynamic organization’s digital ecosystem.
+The work stems from a detailed case study that revealed SnowBe’s rapid growth had outpaced its technical controls. As a result, a full review of IT operations was conducted to design and implement an effective security strategy.
 
----
+## Scope
 
-This repository not only highlights technical knowledge of cybersecurity frameworks but also reflects practical skills in implementing policies, standards, and procedures within an organization, underscoring a commitment to creating a secure and compliant operational environment.
+The plan applies to all employees, contractors, and third-party vendors across SnowBe's AWS-based e-commerce infrastructure, physical storefronts in the U.S. and Europe, and on-premises systems. It covers:
+
+- Digital assets (e.g., customer data, sales platform)
+- Physical assets (e.g., servers, laptops, desktops)
+- Network infrastructure and mobile access
+- Software development and lifecycle practices
+
+## Key Components
+
+### 🔒 Policies Implemented
+
+- **Access Control (AC-1, AC-2, AC-3, AC-6, AC-15, AC-17, AC-19)** – Managing user access, enforcing least privilege, and securing remote and mobile device connections.
+- **Configuration Management (CM-3)** – Governing system changes with documentation, testing, and version tracking.
+- **Cryptography (SC-12, SC-13)** – Implementing secure key management and encryption for stored and transmitted data.
+- **Incident Response (IR-1)** – Ensuring timely and effective response to security events.
+- **System Integrity & Maintenance (SI-2, SI-7)** – Applying patches, securing endpoints, and maintaining software/firmware integrity.
+- **PCI Compliance (AC-1 PCI Policy)** – Meeting the required controls for protecting payment card data.
+- **Security Awareness (AT-2)** – Training staff on cybersecurity hygiene and social engineering awareness.
+- **System Development Life Cycle (SDLC-1)** – Adopting secure coding and development practices guided by NIST SP 800-160 and SSDF.
+
+### 🛠 Standards & Procedures
+
+- **New Account Procedure**
+- **Password Management and Standards**
+- **Session Termination and Unsuccessful Logon Controls**
+- **Software Patch Management**
+- **CMMC Security Maturity Model Adoption**
+
+## Risk Management Insights
+
+Based on the SnowBe case study, the following recommendations were made:
+
+- Upgrade firmware, OS patches, anti-virus, and backup systems.
+- Implement stricter access controls across servers.
+- Secure physical access to infrastructure (e.g., locked server rooms).
+- Ensure PCI DSS compliance for online transactions.
+- Monitor and archive login audit trails.
+- Vet mobile devices for secure data access.
+
+## Outcomes
+
+- A complete security policy framework covering governance, technical, physical, and operational domains.
+- Mapped policies to NIST 800-53 controls to support compliance and organizational risk reduction.
+- A roadmap for maturity and security gap closure based on CMMC and RMF principles.
