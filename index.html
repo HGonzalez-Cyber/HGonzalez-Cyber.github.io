@@ -44,10 +44,16 @@
             z-index: 1000;
         }
         nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  list-style: none;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
         nav li {
             display: inline;
             margin: 0 20px;
@@ -155,6 +161,39 @@ form input[type="submit"]:hover {
   header h1 {
     font-size: 1.8rem;
   }
+  header p {
+    font-size: 1rem;
+  }
+  main {
+    padding: 1rem;
+    border-radius: 0;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0;
+    background-color: rgba(74, 144, 226, 0.9);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  nav ul li {
+    width: 100%;
+  }
+  nav ul li a {
+    display: block;
+    padding: 0.8rem 0;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  form input, form textarea {
+    font-size: 1rem;
+  }
+}
   header p {
     font-size: 1rem;
   }
@@ -370,3 +409,4 @@ form input[type="submit"]:hover {
     </footer>
 </body>
 </html>
+
