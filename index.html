@@ -46,13 +46,11 @@
         nav ul {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2rem;
   padding: 1rem 0;
   list-style: none;
-  margin: 0;
-  background-color: rgba(255, 255, 255, 0.15);
-  border-radius: 10px;
-  flex-wrap: wrap;
+  margin: 0 auto;
+  background: none;
 }
         nav li {
             display: inline;
@@ -170,6 +168,35 @@ form input[type="submit"]:hover {
   }
   nav ul {
     flex-direction: column;
+    background-color: rgba(74, 144, 226, 0.95);
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  nav ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    padding: 0.75rem 0;
+    background-color: transparent;
+  }
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  form input, form textarea {
+    font-size: 1rem;
+  }
+}
+  header p {
+    font-size: 1rem;
+  }
+  main {
+    padding: 1rem;
+    border-radius: 0;
+  }
+  nav ul {
+    flex-direction: column;
     align-items: center;
     padding: 0.5rem 0;
     background-color: rgba(74, 144, 226, 0.9);
@@ -180,16 +207,15 @@ form input[type="submit"]:hover {
     width: 100%;
   }
   nav ul li a {
-    display: block;
-    padding: 0.8rem 0;
-    font-size: 1rem;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-  }
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
   nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-  }
+  background-color: rgba(255, 255, 255, 0.2);
+}
   form input, form textarea {
     font-size: 1rem;
   }
@@ -409,4 +435,3 @@ form input[type="submit"]:hover {
     </footer>
 </body>
 </html>
-
